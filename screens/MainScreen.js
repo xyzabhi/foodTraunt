@@ -1,4 +1,6 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import ChipList from "../components/ChipList";
+import OfferList from "../components/OfferList";
 import SearchBar from "../components/SearchBar";
 
 export default function MainScreen() {
@@ -6,6 +8,8 @@ export default function MainScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.container}>
         <SearchBar />
+        <ChipList />
+        {/* <OfferList /> */}
       </View>
     </SafeAreaView>
   );
